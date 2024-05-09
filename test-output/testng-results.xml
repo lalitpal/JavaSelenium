@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-06T09:25:50 IST" name="Suite" finished-at="2024-05-06T09:26:01 IST" duration-ms="10828">
+    <groups>
+    </groups>
+    <test started-at="2024-05-06T09:25:50 IST" name="Test" finished-at="2024-05-06T09:26:01 IST" duration-ms="10828">
+      <class name="testCases.Test_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Test_001@77fbd92c]" started-at="2024-05-06T09:25:50 IST" name="setup" finished-at="2024-05-06T09:25:53 IST" duration-ms="3059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration()[pri:0, instance:testCases.Test_001@77fbd92c]" started-at="2024-05-06T09:25:53 IST" name="testRegistration" finished-at="2024-05-06T09:25:54 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Test_001@77fbd92c]" started-at="2024-05-06T09:25:54 IST" name="tearDown" finished-at="2024-05-06T09:25:54 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Test_001@77fbd92c]" started-at="2024-05-06T09:25:54 IST" name="setup" finished-at="2024-05-06T09:25:55 IST" duration-ms="1032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddItems()[pri:0, instance:testCases.Test_001@77fbd92c]" started-at="2024-05-06T09:25:55 IST" name="testAddItems" finished-at="2024-05-06T09:26:01 IST" depends-on-methods="testCases.Test_001.testRegistration" duration-ms="5984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Test_001@77fbd92c]" started-at="2024-05-06T09:26:01 IST" name="tearDown" finished-at="2024-05-06T09:26:01 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Test_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
